@@ -47,7 +47,37 @@
 		</dependency>
 		<dependency>
 			<groupId>eu.arrowhead</groupId>
+			<artifactId>arrowhead-choreographer</artifactId>
+			<version>${revision}</version>
+		</dependency>
+		<dependency>
+			<groupId>eu.arrowhead</groupId>
 			<artifactId>arrowhead-serviceregistry</artifactId>
+			<version>${revision}</version>
+		</dependency>
+		<dependency>
+			<groupId>eu.arrowhead</groupId>
+			<artifactId>arrowhead-certificate-authority</artifactId>
+			<version>${revision}</version>
+		</dependency>
+		<dependency>
+			<groupId>eu.arrowhead</groupId>
+			<artifactId>arrowhead-onboarding</artifactId>
+			<version>${revision}</version>
+		</dependency>
+		<dependency>
+			<groupId>eu.arrowhead</groupId>
+			<artifactId>arrowhead-deviceregistry</artifactId>
+			<version>${revision}</version>
+		</dependency>
+		<dependency>
+			<groupId>eu.arrowhead</groupId>
+			<artifactId>arrowhead-systemregistry</artifactId>
+			<version>${revision}</version>
+		</dependency>
+		<dependency>
+			<groupId>eu.arrowhead</groupId>
+			<artifactId>arrowhead-qos-monitor</artifactId>
 			<version>${revision}</version>
 		</dependency>
 	</dependencies>
@@ -94,7 +124,37 @@
 								</artifactItem>
 								<artifactItem>
 									<groupId>eu.arrowhead</groupId>
+									<artifactId>arrowhead-choreographer</artifactId>
+									<type>jar</type>
+								</artifactItem>
+								<artifactItem>
+									<groupId>eu.arrowhead</groupId>
 									<artifactId>arrowhead-serviceregistry</artifactId>
+									<type>jar</type>
+								</artifactItem>
+								<artifactItem>
+									<groupId>eu.arrowhead</groupId>
+									<artifactId>arrowhead-certificate-authority</artifactId>
+									<type>jar</type>
+								</artifactItem>
+								<artifactItem>
+									<groupId>eu.arrowhead</groupId>
+									<artifactId>arrowhead-onboarding</artifactId>
+									<type>jar</type>
+								</artifactItem>
+								<artifactItem>
+									<groupId>eu.arrowhead</groupId>
+									<artifactId>arrowhead-deviceregistry</artifactId>
+									<type>jar</type>
+								</artifactItem>
+								<artifactItem>
+									<groupId>eu.arrowhead</groupId>
+									<artifactId>arrowhead-systemregistry</artifactId>
+									<type>jar</type>
+								</artifactItem>
+								<artifactItem>
+									<groupId>eu.arrowhead</groupId>
+									<artifactId>arrowhead-qos-monitor</artifactId>
 									<type>jar</type>
 								</artifactItem>
 							</artifactItems>
